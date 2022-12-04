@@ -20,5 +20,4 @@ public class HelloMain {
 		result = service.calcTwoNumbers(3, 5);
 		System.out.println("result service = "+result);
 	}
-
 }
