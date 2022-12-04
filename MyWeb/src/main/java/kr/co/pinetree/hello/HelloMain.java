@@ -18,6 +18,6 @@ public class HelloMain {
 		
 		HelloService service = ctx.getBean("helloService", HelloService.class);
 		result = service.calcTwoNumbers(3, 5);
-		System.out.println("result service = "+result); 
+		System.out.println("result service = "+result);   
 	}
 }
